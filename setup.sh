@@ -5,3 +5,4 @@ sudo systemctl enable --now clamav-freshclam
 sudo freshclam
 sudo systemctl enable --now xrdp
 sudo systemctl enable --now cockpit.socket
+gio open http://localhost:9090/
