@@ -19,7 +19,7 @@ It's a script specifically for installation of most of my packages for Manjaro.
 
 ### 4. Execute the script.
 
-`./setup.sh`
+`sudo ./setup.sh`
 
 ### 5. cd out of the directory
 
