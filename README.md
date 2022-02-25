@@ -15,7 +15,7 @@ It's a script specifically for installation of most of my packages for Manjaro.
 
 ### 3. Modify the script permission so that you can execute it.
 
-`sudo chmod 444 setup.sh`
+`sudo chmod a+rx setup.sh`
 
 ### 4. Execute the script.
 
