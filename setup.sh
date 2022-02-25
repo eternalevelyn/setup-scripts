@@ -1,4 +1,5 @@
-sudo pacman -Syu git base-devel yay xfreerdp krdc wine wine-mono winetricks wine_gecko steam discord libreoffice-fresh clamav clamtk cockpit cockpit-machines cockpit-navigator cockpit-podman qtox
+sudo pacman -Syu
+sudo pacman -S git base-devel yay xfreerdp krdc wine wine-mono winetricks wine_gecko steam discord libreoffice-fresh clamav clamtk cockpit cockpit-machines cockpit-podman qtox
 yay -S xrdp openrgb-bin spotify netvisix librewolf-bin edex-ui-bin
 sudo systemctl enable --now clamav-daemon
 sudo systemctl enable --now clamav-freshclam
