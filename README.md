@@ -21,6 +21,10 @@ It's a script specifically for installation of most of my packages for Manjaro.
 
 `sudo ./setup.sh`
 
+For secondary setup:
+
+`sudo ./setup2.sh`
+
 ### 5. cd out of the directory
 
 `cd`
