@@ -1,7 +1,7 @@
 sudo pacman -Syu
-sudo pacman -S yay
-yay -S xrdp
-sudo pacman -S git base-devel freerdp krdc wine wine-mono winetricks wine_gecko discord libreoffice-fresh clamav clamtk cockpit cockpit-machines cockpit-podman qtox
+sudo pacman -S git base-devel yay
+yay -S xrdp-bin-git
+sudo pacman -S freerdp krdc wine wine-mono winetricks wine_gecko discord libreoffice-fresh clamav clamtk cockpit cockpit-machines cockpit-podman qtox
 yay -S openrgb-bin netvisix edex-ui-bin
 flatpak install spotify librewolf
 sudo systemctl enable --now clamav-daemon
